@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+@import "reset.css";
+@import "header.css";
+@import "index.css";
+
+body {
+  background-color: teal;
+  height: 500%;
+  width: 100%;
+}
+
+.main_wrapper {
+  height: 100%;
+  width: 100%;
+}
