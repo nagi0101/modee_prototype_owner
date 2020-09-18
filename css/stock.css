@@ -57,7 +57,7 @@
 .fa-arrow-circle-down {
   position: absolute;
   color: white;
-  top: 100px;
+  bottom: 85%;
   z-index: 12;
 }
 
