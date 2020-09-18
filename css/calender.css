@@ -54,6 +54,7 @@
   height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -61,7 +62,7 @@
 .days li {
   list-style-type: none;
   display: inline-block;
-  width: 13%;
+  height: auto;
   text-align: left;
   margin-bottom: 0px;
   font-size: 12px;
@@ -81,6 +82,11 @@
   color: white !important;
 }
 
+.work {
+  font-size: 10px;
+  border: 1px orange solid;
+  margin: 1px 0px;
+}
 /* calender end */
 .calander_body .reservation__menu {
   font-weight: 400;
