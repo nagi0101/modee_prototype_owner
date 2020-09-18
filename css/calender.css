@@ -1,0 +1,100 @@
+/* calender start */
+/* Month header */
+.month {
+  padding: 80px 0 10px 0;
+  width: 100%;
+  background: #ffdb6f;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ffdb6f;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 0 0;
+  background: #ffefc1;
+  margin: 0;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: left;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: #777;
+  margin: 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.days :nth-child(2n) {
+  background-color: #ffe699;
+}
+
+/* Highlight the "current" day */
+.days .active {
+  background: #ffbc6f;
+  color: white !important;
+}
+
+/* calender end */
+.calander_body .reservation__menu {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.calander_body .reservation {
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.calander_body .right-side {
+  margin-right: 100px;
+}
+
+.reservated__time {
+  padding: 5px 5px;
+}

@@ -4,6 +4,8 @@
 @import "header.css";
 @import "index.css";
 @import "nav_bar.css";
+@import "calender.css";
+@import "reservation.css";
 
 body {
   width: 100%;
@@ -13,4 +15,8 @@ body {
 .main_wrapper {
   height: 100%;
   width: 100%;
+}
+
+a:visited {
+  color: inherit;
 }

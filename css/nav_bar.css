@@ -11,5 +11,17 @@
   align-items: center;
   justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.1) -1px -1px 5px;
+  text-decoration-line: none;
+}
+
+.nav_bar .activated {
+  background-color: #ffe699;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 /* .nav_bar end */
