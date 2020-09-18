@@ -35,13 +35,30 @@
   align-items: center;
   position: absolute;
   top: 20%;
-  height: 80%;
+  height: 0%;
+  visibility: hidden;
+  transform: translateY(80%);
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 12;
 }
 
-.stock_manage > i {
-  font-size: 30px;
+.btn_manage {
+  font-size: 40px;
   margin: 10px 0px;
   color: black;
+}
+
+.fa-arrow-circle-up {
+  position: absolute;
+  bottom: 90px;
+}
+
+.fa-arrow-circle-down {
+  position: absolute;
+  color: white;
+  top: 100px;
+  z-index: 12;
 }
 
 .management {
@@ -59,10 +76,12 @@
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 11;
+  display: none;
 }
+
 .management .management__title {
   font-size: 25px;
   font-weight: 700;
@@ -118,17 +137,15 @@
   font-size: 40px;
 }
 
-.stock_manage {
-  visibility: hidden;
-  transform: translateY(80%);
-  transition: 0.5s;
-}
-
-.stock_manage > i {
-  visibility: visible;
-}
-
 .side-bar-showing {
   visibility: visible;
   transform: translateY(0);
+  height: 80%;
+  opacity: 1;
+}
+
+.background-showing {
+  position: absolute;
+  top: 0;
+  display: block;
 }
