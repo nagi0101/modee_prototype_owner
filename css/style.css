@@ -8,6 +8,7 @@
 @import "reservation.css";
 @import "stock.css";
 @import "store.css";
+@import "chart.css";
 
 body {
   font-family: Nanum Gothic;

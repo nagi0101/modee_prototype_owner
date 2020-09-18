@@ -1,0 +1,35 @@
+.chart_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart_name_section {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0px;
+}
+
+.chart_section h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.chart_item {
+  margin: 10px 0px;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.chart_data {
+  text-align: end;
+}
+
+.chart_d,
+.chart_arr {
+  color: #ffbc6f;
+}
