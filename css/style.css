@@ -3,11 +3,11 @@
 @import "reset.css";
 @import "header.css";
 @import "index.css";
+@import "nav_bar.css";
 
 body {
-  background-color: teal;
-  height: 500%;
   width: 100%;
+  font-family: Nanum Gothic;
 }
 
 .main_wrapper {
