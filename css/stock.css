@@ -26,3 +26,109 @@
   font-size: 20px;
   margin: 5px 0px;
 }
+
+/* stock_manage 시작 */
+.stock_manage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  height: 80%;
+}
+
+.stock_manage > i {
+  font-size: 30px;
+  margin: 10px 0px;
+  color: black;
+}
+
+.management {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.management,
+.fa-arrow-circle-up {
+  z-index: 12;
+}
+
+.black_background {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+.management .management__title {
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 1px black solid;
+  border-top: 5px #ffe699 solid;
+  padding: 5px 0px;
+}
+
+.management__stocks {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.management__stocks h2 {
+  width: 90%;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.management__stocks .stocks_list {
+  width: 90%;
+}
+
+.stocks_list .stock {
+  margin: 5px 0px;
+}
+
+.management__stocks .stock .stock_stock {
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.management__stocks i {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.lastorder_list .stock {
+  align-items: center;
+}
+
+.lastorder_list .stock_price {
+  border: 1px black solid;
+}
+
+.stock .fa-play-circle {
+  font-size: 40px;
+}
+
+.stock_manage {
+  visibility: hidden;
+  transform: translateY(80%);
+  transition: 0.5s;
+}
+
+.stock_manage > i {
+  visibility: visible;
+}
+
+.side-bar-showing {
+  visibility: visible;
+  transform: translateY(0);
+}
