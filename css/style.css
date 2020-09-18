@@ -6,6 +6,7 @@
 @import "nav_bar.css";
 @import "calender.css";
 @import "reservation.css";
+@import "stock.css";
 
 body {
   width: 100%;
