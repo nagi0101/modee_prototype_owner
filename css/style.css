@@ -7,6 +7,7 @@
 @import "calender.css";
 @import "reservation.css";
 @import "stock.css";
+@import "store.css";
 
 body {
   font-family: Nanum Gothic;

@@ -14,6 +14,10 @@
   text-decoration-line: none;
 }
 
+.nav_bar a:link {
+  color: #ffe699;
+}
+
 .nav_bar .activated {
   background-color: #ffe699;
   border-radius: 50%;
